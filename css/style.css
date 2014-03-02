@@ -1,0 +1,131 @@
+body {
+  font-family: Corbel, sans-serif; 
+  color: #57534a;
+}
+
+h1 {
+  font-size: 3.7em;
+  font-weight: 400;
+  color: #777777;
+  text-align: center;
+}
+
+/*Navigation bar styling*/
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  width: 10em;
+  padding: 0 1em;
+}
+
+li a {
+  /*color: #3C3D42;*/
+  color: #777777;
+}
+
+.nav-header {
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+  background-color: #fff;
+}
+
+.nav-link-row {
+  border-bottom: 1px solid #777777;
+}
+
+.nav-links {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto 1em auto;
+}
+
+#welcome {
+  padding-top: 11em;
+}
+
+.intro-pic img{
+  display: inline-block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.intro-blurb {
+  background: rgba(255,255,255,0.5);
+  color: rgba(34,34,34,1);
+  font-size:1.25em;
+  font-weight:400;
+  line-height: 1.2em;
+  z-index:100;
+  position:absolute;    
+  padding: 1em 1.6em 1em 1em;
+  left: 23em;
+  top:14em;
+}
+
+.portfolio-section {
+  min-height: 50em;
+}
+
+.intro-blurb p {
+  color: ;
+}
+
+.item {
+  margin-top: 2em;
+}
+
+#feature-films, #short-films, #theater, #commercials, #about {
+  padding-top: 10em;
+}
+
+.project {
+  color: #423f37;
+  font-size: 1.15em;
+  font-weight: 600;
+  padding: 0.75em 0 0.25em 0;
+}
+
+.card.columns {
+  padding: 0;
+}
+
+.role, .description {
+  padding: 0.25em 0;
+}
+
+.description {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bio, .contact {
+  text-align: center;
+  color: #57534a;
+}
+
+.bio {
+  padding-top: 4em;
+  line-height: 1.5em;
+  font-size: 1.2em;
+}
+
+.contact-section {
+  padding-top: 4em;
+}
+
+.contact {
+  font-size: 1.5em;
+  font-weight: 400;
+  padding:0.2em;
+}
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
+
